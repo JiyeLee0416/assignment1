@@ -1,0 +1,13 @@
+---
+title: "고급통계분석 assignment 1"
+author: "이지예"
+date: "2026-10-06"
+output: pdf_document
+---
+```{r}
+set.seed(1)
+n = 200
+x = seq(0, 1, length.out = n)
+y = sin(2*pi*x) + rnorm(n, sd = 0.15)
+```
+
